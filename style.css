@@ -1,0 +1,129 @@
+body
+{
+	background-color: lightgray;
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+h1
+{
+	color: #556B2F;
+	font-size: 30px;
+	height: 50px;
+	letter-spacing: 2px;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+#glowny
+{
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wstep
+{
+	float: left;
+	padding-right: 20px;
+	width: 580px;
+	height: 390px;
+	text-align: justify;
+}
+
+#zdjecie1
+{
+	float: left;
+	padding-left: 20px;
+	height: 390px;
+	width: 580px;
+}
+
+#przyklad
+{
+	clear: both;
+	height: auto;
+}
+
+#ranking
+{
+	float: left;
+	height: 450px;
+	width: 580px;
+	padding-left: 20px;
+}
+
+#zdjecie2
+{
+	float: left;
+	height: 450px;
+	width: 580px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#popularne
+{
+	clear: both;
+	height: auto;
+	padding: 20px;
+}
+
+#ocena
+{
+	padding: 20px;
+	height: auto;
+}
+
+#pod
+{
+	padding: 20px 0 0 40px;
+}
+
+.tytul
+{
+	color: #6B8E23;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: 'Alfa Slab One', cursive;
+	
+}
+
+
+/*linki*/
+a:link
+{
+	color: #2E8B57;
+}
+a:visited
+{
+	color: #2E8B57;
+}
+
+a:hover 
+{
+	color: #3CB371;
+}
+
+/*pseudoelementy-punktowanie*/
+
+.myslniki
+{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.myslniki li::before
+{
+	content: "\2605 ";
+}
+
+/*kombinowane*/
+div#ocena p
+{
+	color: #556B2F;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: 'Alfa Slab One', cursive;
+}
+
